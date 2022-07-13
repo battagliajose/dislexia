@@ -1,7 +1,16 @@
 const INTERVALO = 100;
 var textos = document.querySelectorAll(".efecto");
+var timer;
 
-setInterval(procesarTextos, INTERVALO);
+iniciarTimer();
+
+function iniciarTimer() {
+    timer = setInterval(procesarTextos, INTERVALO);
+}
+
+function detenerTimer() {
+    clearTimeout(timer);
+}
 
 function procesarTextos() {
     textos.forEach(parrafo => {

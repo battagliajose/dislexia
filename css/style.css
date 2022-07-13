@@ -43,6 +43,18 @@ blockquote {
     line-height: 22.5px;
 }
 
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .links {
     font-size: 0.7rem;
 }
+
+.casilla input {
+    margin-right: 10px;
+}
+
