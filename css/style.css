@@ -3,6 +3,11 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -12,15 +17,32 @@ body {
     background-color: white;
     padding: 15px;
     height: 90vh;
+    border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
 }
 
 .container h1 {
     margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+
+.container h2 {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.1rem;
 }
 
 .parrafo {
-    font-size: 16px;
+    font-size: 0.9rem;
     font-weight: 300;
     line-height: 22.5px;
+}
+
+.links {
+    font-size: 0.7rem;
 }
