@@ -24,12 +24,10 @@ function restaurarDocumento(documento) {
 
 function iniciarTimer() {
     timer = setInterval(procesarDocumento, INTERVALO);
-    console.log("iniciarTimer")
 }
 
 function detenerTimer() {
     clearTimeout(timer);
-    console.log("detenerTimer")
 }
 
 function procesarDocumento() {
@@ -51,8 +49,7 @@ function procesarParrafo(parrafo) {
 }
 
 function obtenerPalabras(text){
-    let x = text.replace(/[^A-Za-z0-9áéíóúñÁÉÍÓÚÑ()üδυσλεξία;,.:—-‘’]+/g, " ");
-    let array = x.trim().split(" ");
+    let array = text.trim().split(" ");
     return array;
 }
 
