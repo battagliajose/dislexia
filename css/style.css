@@ -58,3 +58,19 @@ blockquote {
     margin-right: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 300px;
+        height: auto;
+    }
+
+    .etiologia {
+        display: none;
+    }
+}
